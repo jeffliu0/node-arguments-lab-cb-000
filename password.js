@@ -1,6 +1,8 @@
 // code solution here
+
 console.log(process.argv.length)
 
-if(process.argv.length!=4){
-    return 'Need two arguments'
+module.exports = function password(){
+  if(process.argv.length!==4){
+    console.log('Need two arguments')
   }
